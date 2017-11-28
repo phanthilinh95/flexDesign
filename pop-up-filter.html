@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pop-up-filter</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/basscss/8.0.3/css/basscss.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/10.1.0/nouislider.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<!-- css plugin -->
+	<link rel="stylesheet" href="">
+	<!-- css plugin -->
+	<link rel="stylesheet" href="./css/pop-up-filter.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="reset-popup">
+			<div class="txt-filter flex items-center justify-start"> 
+				<p>Reset</p>
+			</div>
+			<div class="icon-close flex items-center justify-end">
+				<a class="flex items-center justify-center"><i class="fa fa-times" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+		<!---->
+			<div class="return-done">
+				<div class="wrapper">
+					<div class="button-done">
+						<button class="upper flex items-center justify-center">done</button>
+					</div>
+					<div class="type-done">
+						<div class="width-p items-center justify-start">
+							<span>Type:</span> &nbsp <p>all</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!---->
+			<div class="choose-type">
+				<div class="txt-filter wrapper upper flex items-center justify-start"> 
+					<p>Type</p>
+				</div>
+				<div class="button-choose flex justify-start">
+					<button class="bt-st"><a class="bt-sale flex items-center justify-start">Sale</a></button>
+					<button class="bt-rd"><a class="flex items-center justify-start">Exchange</a></button>
+				</div>
+			</div>
+			<!---->
+			<div class=" categories ">
+				<div class="wrapper txt-filter upper flex items-center justify-start"> 
+					<p>categories</p>
+				</div>
+				<div class="list-button-plus">
+					<div class="bt-plus">
+						<button class="bt-filter boder-top flex items-center justify-between"><a>Smartphone</a><i class="zmdi zmdi-plus"></i></button>
+						<button class="bt-filter boder-top flex items-center justify-between"><a>Tablet</a><i class="zmdi zmdi-plus"></i></button>
+						<button class="bt-filter boder-top boder-bot flex items-center justify-between"><a>Smartwatch</a><i class="zmdi zmdi-plus"></i></button>
+						
+					</div>
+				</div>
+			</div>
+			<!---->
+			<div class="conditions">
+				<div class="wrapper txt-filter upper flex items-center justify-start"> 
+					<p>conditions</p>
+				</div>
+				<div class="progress-bar flex items-center justify-start">
+					<div id='slider_container_st' class=" flex items-center justify-start">
+						  <div id='slider-st'></div>
+					</div>
+				</div>
+			</div>
+			<!---->
+			<div class="price-bar">
+				<div class="wrapper txt-filter upper flex items-center justify-start"> 
+					<p>price</p>
+				</div>
+				<div class="progress-bar flex items-center justify-start">
+					<div id='slider_container' class=" flex items-center justify-around ">
+						  <div id='slider'></div>
+					</div>
+				</div>
+			</div>
+			<!---->
+			<div class="color-bar">
+				<div class="wrapper txt-filter upper flex items-center justify-start"> 
+					<p>color</p>
+				</div>
+					<div class="li-color wrapper">
+						<ul>
+							<li class="li-1"></li>
+							<li class="li-2" ></li>
+							<li class="li-3" ></li>
+							<li class="li-4" ></li>
+							<li class="li-5" ></li>
+							<li class="li-6" ></li>
+							<li class="li-7" ></li>
+							<li class="li-8" ></li>
+							<li class="li-9" ></li>
+							<li class="li-10" ></li>
+							<li class="li-11" ></li>
+							<li class="li-12" ></li>
+							<li class="li-13" ></li>
+						</ul>
+					</div>
+			</div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="./js/nouislider.min.js"></script>
+
+<script src="./js/progress-bar.js"></script>
+<script src="./js/price-progress-bar.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js"></script>
+</html>
