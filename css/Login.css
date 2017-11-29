@@ -1,0 +1,49 @@
+.login-contact{
+	width: 100%;
+	height: 100px;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: flex;
+	flex-direction: column;
+
+}
+#sign-in .button-add-cart{
+	margin-bottom: 20px;
+}
+.title{
+	width: 100%;
+	height: 30px;
+	font-family:'Roboto',sans-serif;
+	font-weight: 500;
+	font-size: 11px;
+	color: #aaa;
+}
+.headline {
+	border-top: 1px solid #dbdee3;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #b8c0c9;
+    font-size: 10px;
+    text-align: center;
+}
+.headline span {
+	display: inline-block;
+    padding: 0 15px;
+    background: #fff;
+    /* -webkit-transform: translateY(-50%); */
+    transform: translateY(-50%);
+}
+.icon {
+	display: flex;
+	flex-direction: row;
+	padding-left:  50px;
+	padding-right: 50px;
+}
+.icon a{
+	border: 1px solid #eee;
+	width: 40px;
+	height: 40px;
+}
+.icon i {
+	padding: 7px;
+}
